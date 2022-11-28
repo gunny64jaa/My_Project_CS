@@ -1,0 +1,15 @@
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\obj\Debug\net7.0\My Project.csproj.AssemblyReference.cache
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\obj\Debug\net7.0\My Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\obj\Debug\net7.0\My Project.AssemblyInfoInputs.cache
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\obj\Debug\net7.0\My Project.AssemblyInfo.cs
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\obj\Debug\net7.0\My Project.csproj.CoreCompileInputs.cache
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\bin\Debug\net7.0\My Project.exe
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\bin\Debug\net7.0\My Project.deps.json
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\bin\Debug\net7.0\My Project.runtimeconfig.json
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\bin\Debug\net7.0\My Project.dll
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\bin\Debug\net7.0\My Project.pdb
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\obj\Debug\net7.0\My Project.dll
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\obj\Debug\net7.0\refint\My Project.dll
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\obj\Debug\net7.0\My Project.pdb
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\obj\Debug\net7.0\My Project.genruntimeconfig.cache
+C:\Users\MSI 7\Desktop\Project\C Sharp\My Project\obj\Debug\net7.0\ref\My Project.dll
