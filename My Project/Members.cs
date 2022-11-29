@@ -9,6 +9,7 @@ namespace Myproject
     class Members
     {
         Hashtable member_list = new Hashtable();
+        int status = 0 ;
         public void add_member()
         {
             bool flag = true ;
@@ -52,15 +53,19 @@ namespace Myproject
             if (member_list.ContainsKey(login_name))
                 {
                 if ( login_password == pass_check ) 
-                    {Console.WriteLine("You are already logged in as member");
-                    
+                    {Console.WriteLine("================\nYou are already logged in as member.\n================");
+                    status = 1;
                     login_check = false;}
-                else{Console.WriteLine("Your password is incorrect.");Console.WriteLine(login_password+member_list[login_name]);}
+                else{Console.WriteLine("Your password is incorrect.");}
                 }
             else if (login_name == "0"){login_check = false;}
             else{Console.WriteLine("Your username is not found.");}
             }
         }
+        public int is_login()
+        {return status;}
+        public void logout()
+        {status=0;}
     }
 }    
 
