@@ -11,6 +11,7 @@ namespace Myproject
         static void Main(string[] args)
         {
             Members member_list = new Members();
+            Queue queue = new Queue();
             bool flag = true;
             bool status = false;
             while(flag)
@@ -20,9 +21,8 @@ namespace Myproject
                 Console.WriteLine("Press 3 for login.");
                 Console.WriteLine("Press 4 for logout.");
                 Console.WriteLine("Press 5 for show status.");
-                Console.WriteLine("Press 6 for queue request.");
-                Console.WriteLine("Press 7 for show all queue and table.");
-                Console.WriteLine("Press 8 for leaving.");
+                Console.WriteLine("Press 6 for queuing system.");
+                Console.WriteLine("Press 7 for leaving.");
                 string input = Console.ReadLine();
                 int run_process;
                 int.TryParse(input,out run_process);
@@ -63,7 +63,25 @@ namespace Myproject
                         else{Console.WriteLine("======================\nYou're not logging in.\nPlease login.\n======================");}
                         flag = true;break;
                     }
-                    case 8 : 
+                    case 6 :
+                    {
+                        queue.show_queue();
+                        
+                        Console.WriteLine("\nPress 1 if customer comes in.");
+                        Console.WriteLine("Press 2 if customer leaving.");
+                        Console.WriteLine("Press 3 to skip.");
+                        string q_option_input = Console.ReadLine();
+                        int q_option;
+                        int.TryParse(q_option_input,out q_option);
+                        switch(q_option)
+                        {
+                            case 1 :{queue.q_in();break;}
+                            case 2 :{queue.q_out();break;}
+                            case 3 :{break;}
+                        }
+                        flag = true;break;
+                    }
+                    case 7 : 
                     {
                         flag = false;continue; 
                     }       
